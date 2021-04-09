@@ -12,6 +12,7 @@ The datasets used are part of the TUDataset: MUTAG, PROTEINS, IMDB-BINARY, IMDB-
 
 # How to run
 Download the jupyter notebook and run the cells. The last cell provides with an example how to define and run a GIN model. In general:
+
 model = GIN(num_layers, num_mlps, input_dim, hidden_dim, output_dim, dropout_rate, nbh_agg, graph_agg, learn_eps, random)
 k_fold_cross_validation(k, model, dataset, epochs, batch_size, output_dim)
 
